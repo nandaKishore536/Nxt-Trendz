@@ -1,0 +1,39 @@
+.SummaryCon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.mainH1 {
+  color: #616e7c;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.span {
+  color: #000000;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.par {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #616e7c;
+}
+
+.checkOut {
+  background-color: #0b69ff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  outline: none;
+  padding: 12px 24px 12px 24px;
+  border-radius: 4px;
+}
