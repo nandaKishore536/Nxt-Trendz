@@ -20,11 +20,11 @@ const CartItem = props => (
       }
 
       const increase = () => {
-        incrementCartItemQuantity(cartItemDetails)
+        incrementCartItemQuantity(id)
       }
 
       const decrease = () => {
-        decrementCartItemQuantity(cartItemDetails)
+        decrementCartItemQuantity(id)
       }
 
       return (
@@ -72,7 +72,11 @@ const CartItem = props => (
             type="button"
             onClick={onRemoveCartItem}
           >
-            <AiFillCloseCircle color="#616E7C" size={20} />
+            <AiFillCloseCircle
+              color="#616E7C"
+              size={20}
+              onClick={onRemoveCartItem}
+            />
             {}
           </button>
         </li>
