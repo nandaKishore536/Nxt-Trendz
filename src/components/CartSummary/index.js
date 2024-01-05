@@ -8,7 +8,7 @@ const CartSummary = () => (
       const {cartList} = value
       let c = 0
       cartList.forEach(each => {
-        c += each.price
+        c += each.price * each.quantity
       })
 
       return (
